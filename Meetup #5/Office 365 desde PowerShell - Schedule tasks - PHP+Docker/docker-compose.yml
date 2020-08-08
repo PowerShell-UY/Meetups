@@ -1,0 +1,9 @@
+version: '3.1'
+
+services:
+  php:
+    image: php-pwsh-bkp
+    ports:
+      - 82:80
+    volumes:
+      - .:/var/www/html/
